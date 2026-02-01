@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meine Lieblingsreiseziele</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Meine Lieblingsreiseziele 🌍</h1>
+      <p><b>Wunderschöne Orte , die ich eines Tages besuchen möchte✈️</b></p>
+    </header>
+
+    <nav>
+      <a href="#italien">Italien🇮🇹</a>
+      <a href="#spanien">Spanien🇪🇸</a>
+      <a href="#amazonas">Amazon-Regenwald🇧🇷</a>
+    </nav>
+
+    <section id="italien">
+      <h2>Italien🇮🇹</h2>
+      <p>
+        Italien ist bekannt für seine Kultur,Mode,Geschichte und natürlich das
+        leckere Essen.
+      </p>
+      <ul>
+        <li>Rom-die ewige Stadt mit dem Kolosseum</li>
+        <li>Florenz-das Herz der Renaissance</li>
+        <li>Venedig-die Stadt der Kanäle</li>
+      </ul>
+      <img
+        src="rome.jpg"
+        alt="Rom Colosseum"
+        title="Colosseum"
+        class="reisebild"
+      />
+      <p>
+        <a
+          href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.alamy.de%2Fsehenswurdigkeiten-in-italien-foto-collage-mit-rom-venedig-florenz-mailand-pisa-sizilien-und-italienischen-alpen-image415638047.html&psig=AOvVaw2pKVjE4qKO3LOiGwqudRIZ&ust=1761829189539000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNiNv6y7yZADFQAAAAAdAAAAABAg"
+          target="_blank"
+          >Sehenswürdigkeiten</a
+        ><br />
+        <a href="https://www.booking.com/country/it.html" target="_blank"
+          >Hotels</a
+        >
+      </p>
+    </section>
+
+    <section id="spanien">
+      <h2>Spanien🇪🇸</h2>
+      <p>Spanien bietet Sonne , Musik , Tanz und wunderschöne Architektur.</p>
+      <ul>
+        <li>Barcelona-die Stadt von Gaudí</li>
+        <li>Ibiza-Insel mit Musik,Freiheit und goldenen Stränden.</li>
+        <li>Valenzia-Stadt am Meer,bekannt für Sonne und Paella</li>
+      </ul>
+      <img src="ibiza.jpg" alt="Ibiza-Insel" title="Ibiza" class="reisebild" />
+      <p>
+        <a
+          href="https://www.tourlane.de/europa/spanien/sehenswuerdigkeiten/"
+          target="_blank"
+          >Sehenswürdigkeiten</a
+        ><br />
+        <a href="https://www.booking.com/country/es.html" target="_blank"
+          >Hotels</a
+        >
+      </p>
+    </section>
+
+    <section id="amazonas">
+      <h2>Amazon-Regenwald🇧🇷</h2>
+      <p>
+        Der Amazons ist das grüne Herz der Erde,ein Symbol für Leben,Natur und
+        Vielfalt
+      </p>
+      <ul>
+        <li>
+          In Brasilien gelegen,erstreckt sich über mehrere Länder in Südamerika.
+        </li>
+        <li>Beheimatet tausende Tier und Pflanzenarten.</li>
+        <li>Ein magischer Ort für Naturliebhaber</li>
+      </ul>
+      <img
+        src="amazon.jpg"
+        alt="Amazon-Regenwald"
+        title="Amazon-Regenwald"
+        class="reisebild"
+      />
+      <p>
+        <a
+          href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fandeangreattreks.com%2Fde%2Fblog%2F10-gruende-den-amazonas-regenwald-zu-besuchen%2F&psig=AOvVaw2pDDbzm_846uxQ1tSMPXfq&ust=1761830520157000&source=images&cd=vfe&opi=89978449&ved=0CBgQjhxqFwoTCLimuKfAyZADFQAAAAAdAAAAABAE"
+          target="_blank"
+          >Sehenswürdigkeiten</a
+        ><br />
+        <a
+          href="https://planetaexo.com/trips/a/luxury-amazon-lodge-brazil/"
+          target="_blank"
+          >Hotels</a
+        >
+      </p>
+    </section>
+
+    <section>
+      <h2>Dein Traumreiseziel ✈️</h2>
+      <p>Welches Land möchtest du gerne besuchen? Schreib es hier!</p>
+
+      <form id="travelForm">
+        <label for="name"> Name : </label><br />
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Dein Name"
+        /><br /><br />
+        <label for="country"> Lieblingsland : </label><br />
+        <select id="country" name="country">
+          <option value="">bitte auswählen--</option>
+          <option value="italien">italien🇮🇹</option>
+          <option value="spanien">spanien🇪🇸</option>
+          <option value="amazonas">amazonas🇧🇷</option>
+          <option value="portugal">portugal🇵🇹</option>
+          <option value="schweiz">schweiz🇨🇭</option>
+          <option value="england">england🇬🇧</option>
+          <option value="australien">australien🇦🇺</option>
+          <option value="türkei">türkei🇹🇷</option></select
+        ><br /><br />
+        <label for="message"> Warum möchtest du dorthin reisen? </label><br />
+        <textarea
+          id="message"
+          name="message"
+          rows="4"
+          cols="50"
+          placeholder="Schreib hier..."
+        ></textarea
+        ><br /><br />
+
+    <button type="button" id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+    <button id="backToTop" type="button" aria-label="Back to top">⬆️</button>
+
+
+      </form>
+      <div id="formResult"></div>
+    </section>
+    <footer>
+      <p>&copy; 2025 Reiseprojekt,erstellt von Atefeh💙</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
